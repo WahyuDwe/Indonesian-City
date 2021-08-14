@@ -154,13 +154,13 @@ object CitiesData {
     private val citiesImage = intArrayOf(
         R.drawable.jakarta,
         R.drawable.makassasr,
-        R.drawable.palu1,
+        R.drawable.palu,
         R.drawable.yogyakarta,
         R.drawable.bandung,
-        R.drawable.pekanbaru1,
+        R.drawable.pekanbaru,
         R.drawable.semarang,
         R.drawable.surabaya,
-        R.drawable.jayapura1,
+        R.drawable.jayapura,
         R.drawable.medan,
         R.drawable.batam
     )

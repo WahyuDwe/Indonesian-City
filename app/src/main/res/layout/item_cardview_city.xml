@@ -34,7 +34,6 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:layout_toEndOf="@id/img_item_photo"
-            android:layout_toRightOf="@id/img_item_photo"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
