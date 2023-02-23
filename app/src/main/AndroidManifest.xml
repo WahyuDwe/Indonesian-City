@@ -8,16 +8,17 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/indonesian_cities"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IndonesianCity.Light">
-        <activity android:name=".activity.DetailActivity"></activity>
+        <activity android:name=".activity.DetailActivity" />
         <activity android:name=".activity.AboutActivity" />
         <activity android:name=".activity.MainActivity" />
         <activity
             android:name=".activity.SplashActivity"
-            android:theme="@style/Actionbar.Light">
+            android:theme="@style/Actionbar.Light"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
